@@ -15,10 +15,20 @@
 		010107F9261EDBC700F89943 /* SwiftUICoreDataTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010107CC261EDBC700F89943 /* SwiftUICoreDataTestApp.swift */; };
 		010107FA261EDBC700F89943 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010107CD261EDBC700F89943 /* ContentView.swift */; };
 		010107FB261EDBC700F89943 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010107CD261EDBC700F89943 /* ContentView.swift */; };
-		010107FC261EDBC700F89943 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010107CE261EDBC700F89943 /* Persistence.swift */; };
-		010107FD261EDBC700F89943 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010107CE261EDBC700F89943 /* Persistence.swift */; };
 		010107FE261EDBC700F89943 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 010107CF261EDBC700F89943 /* Assets.xcassets */; };
 		010107FF261EDBC700F89943 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 010107CF261EDBC700F89943 /* Assets.xcassets */; };
+		0101081D261EDEB400F89943 /* Candy+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01010819261EDEB400F89943 /* Candy+CoreDataClass.swift */; };
+		0101081E261EDEB400F89943 /* Candy+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01010819261EDEB400F89943 /* Candy+CoreDataClass.swift */; };
+		0101081F261EDEB400F89943 /* Candy+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0101081A261EDEB400F89943 /* Candy+CoreDataProperties.swift */; };
+		01010820261EDEB400F89943 /* Candy+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0101081A261EDEB400F89943 /* Candy+CoreDataProperties.swift */; };
+		01010821261EDEB400F89943 /* Country+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0101081B261EDEB400F89943 /* Country+CoreDataClass.swift */; };
+		01010822261EDEB400F89943 /* Country+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0101081B261EDEB400F89943 /* Country+CoreDataClass.swift */; };
+		01010823261EDEB400F89943 /* Country+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0101081C261EDEB400F89943 /* Country+CoreDataProperties.swift */; };
+		01010824261EDEB400F89943 /* Country+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0101081C261EDEB400F89943 /* Country+CoreDataProperties.swift */; };
+		01010832261EE11C00F89943 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01010831261EE11C00F89943 /* Persistence.swift */; };
+		01010833261EE11C00F89943 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01010831261EE11C00F89943 /* Persistence.swift */; };
+		01010844261EE4BB00F89943 /* CountryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01010843261EE4BB00F89943 /* CountryView.swift */; };
+		01010845261EE4BB00F89943 /* CountryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01010843261EE4BB00F89943 /* CountryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +52,6 @@
 		010107CB261EDBC700F89943 /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
 		010107CC261EDBC700F89943 /* SwiftUICoreDataTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICoreDataTestApp.swift; sourceTree = "<group>"; };
 		010107CD261EDBC700F89943 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		010107CE261EDBC700F89943 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		010107CF261EDBC700F89943 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		010107D4261EDBC700F89943 /* SwiftUICoreDataTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUICoreDataTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		010107D7261EDBC700F89943 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -55,6 +64,12 @@
 		010107EF261EDBC700F89943 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		010107F3261EDBC700F89943 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		010107F5261EDBC700F89943 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01010819261EDEB400F89943 /* Candy+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Candy+CoreDataClass.swift"; sourceTree = "<group>"; };
+		0101081A261EDEB400F89943 /* Candy+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Candy+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		0101081B261EDEB400F89943 /* Country+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Country+CoreDataClass.swift"; sourceTree = "<group>"; };
+		0101081C261EDEB400F89943 /* Country+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Country+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		01010831261EE11C00F89943 /* Persistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		01010843261EE4BB00F89943 /* CountryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +107,10 @@
 		010107C4261EDBC700F89943 = {
 			isa = PBXGroup;
 			children = (
+				01010819261EDEB400F89943 /* Candy+CoreDataClass.swift */,
+				0101081A261EDEB400F89943 /* Candy+CoreDataProperties.swift */,
+				0101081B261EDEB400F89943 /* Country+CoreDataClass.swift */,
+				0101081C261EDEB400F89943 /* Country+CoreDataProperties.swift */,
 				010107C9261EDBC700F89943 /* Shared */,
 				010107D6261EDBC700F89943 /* iOS */,
 				010107DD261EDBC700F89943 /* macOS */,
@@ -106,9 +125,10 @@
 			children = (
 				010107CC261EDBC700F89943 /* SwiftUICoreDataTestApp.swift */,
 				010107CD261EDBC700F89943 /* ContentView.swift */,
-				010107CE261EDBC700F89943 /* Persistence.swift */,
+				01010831261EE11C00F89943 /* Persistence.swift */,
 				010107CF261EDBC700F89943 /* Assets.xcassets */,
 				010107CA261EDBC700F89943 /* SwiftUICoreDataTest.xcdatamodeld */,
+				01010843261EE4BB00F89943 /* CountryView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -317,9 +337,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				010107F8261EDBC700F89943 /* SwiftUICoreDataTestApp.swift in Sources */,
-				010107FC261EDBC700F89943 /* Persistence.swift in Sources */,
+				01010832261EE11C00F89943 /* Persistence.swift in Sources */,
 				010107F6261EDBC700F89943 /* SwiftUICoreDataTest.xcdatamodeld in Sources */,
+				01010844261EE4BB00F89943 /* CountryView.swift in Sources */,
+				0101081F261EDEB400F89943 /* Candy+CoreDataProperties.swift in Sources */,
 				010107FA261EDBC700F89943 /* ContentView.swift in Sources */,
+				01010821261EDEB400F89943 /* Country+CoreDataClass.swift in Sources */,
+				0101081D261EDEB400F89943 /* Candy+CoreDataClass.swift in Sources */,
+				01010823261EDEB400F89943 /* Country+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,9 +353,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				010107F9261EDBC700F89943 /* SwiftUICoreDataTestApp.swift in Sources */,
-				010107FD261EDBC700F89943 /* Persistence.swift in Sources */,
+				01010833261EE11C00F89943 /* Persistence.swift in Sources */,
 				010107F7261EDBC700F89943 /* SwiftUICoreDataTest.xcdatamodeld in Sources */,
+				01010845261EE4BB00F89943 /* CountryView.swift in Sources */,
+				01010820261EDEB400F89943 /* Candy+CoreDataProperties.swift in Sources */,
 				010107FB261EDBC700F89943 /* ContentView.swift in Sources */,
+				01010822261EDEB400F89943 /* Country+CoreDataClass.swift in Sources */,
+				0101081E261EDEB400F89943 /* Candy+CoreDataClass.swift in Sources */,
+				01010824261EDEB400F89943 /* Country+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
